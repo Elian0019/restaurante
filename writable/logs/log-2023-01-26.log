@@ -1,0 +1,119 @@
+ERROR - 2023-01-26 09:21:17 --> Unknown column 'p.capacidad' in 'field list'
+CRITICAL - 2023-01-26 09:21:17 --> Unknown column 'p.capacidad' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(dv...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(dv...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(dv...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(dv...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentasModel.php(104): CodeIgniter\BaseModel->findAll(10)
+#7 C:\xampp\htdocs\pos\app\Controllers\Inicio.php(32): App\models\VentasModel->productos_mas_vendidos('01', '2023')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(928): App\Controllers\Inicio->index()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-26 09:27:49 --> Unknown column 'p.capacidad' in 'field list'
+CRITICAL - 2023-01-26 09:27:49 --> Unknown column 'p.capacidad' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(dv...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(dv...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(dv...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(dv...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentasModel.php(104): CodeIgniter\BaseModel->findAll(10)
+#7 C:\xampp\htdocs\pos\app\Controllers\Inicio.php(32): App\models\VentasModel->productos_mas_vendidos('01', '2023')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(928): App\Controllers\Inicio->index()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-26 09:27:51 --> Unknown column 'p.capacidad' in 'field list'
+CRITICAL - 2023-01-26 09:27:51 --> Unknown column 'p.capacidad' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(dv...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(dv...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(dv...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(dv...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentasModel.php(104): CodeIgniter\BaseModel->findAll(10)
+#7 C:\xampp\htdocs\pos\app\Controllers\Inicio.php(32): App\models\VentasModel->productos_mas_vendidos('01', '2023')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(928): App\Controllers\Inicio->index()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-26 09:36:22 --> Table 'pos2.productos' doesn't exist in engine
+CRITICAL - 2023-01-26 09:36:22 --> Table 'pos2.productos' doesn't exist in engine
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(561): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\pos\app\Models\ProductosModel.php(30): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\pos\app\Controllers\Inicio.php(28): App\models\ProductosModel->totalProductos()
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(928): App\Controllers\Inicio->index()
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-01-26 09:36:59 --> Unknown column 'p.capacidad' in 'field list'
+CRITICAL - 2023-01-26 09:36:59 --> Unknown column 'p.capacidad' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(dv...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(dv...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(dv...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(dv...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentasModel.php(104): CodeIgniter\BaseModel->findAll(10)
+#7 C:\xampp\htdocs\pos\app\Controllers\Inicio.php(32): App\models\VentasModel->productos_mas_vendidos('01', '2023')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(928): App\Controllers\Inicio->index()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-26 09:39:57 --> Unknown column 'p.capacidad' in 'field list'
+CRITICAL - 2023-01-26 09:39:57 --> Unknown column 'p.capacidad' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(dv...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(dv...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(dv...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(dv...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentasModel.php(104): CodeIgniter\BaseModel->findAll(10)
+#7 C:\xampp\htdocs\pos\app\Controllers\Inicio.php(32): App\models\VentasModel->productos_mas_vendidos('01', '2023')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(928): App\Controllers\Inicio->index()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-26 09:46:14 --> Unknown column 'p.capacidad' in 'field list'
+CRITICAL - 2023-01-26 09:46:14 --> Unknown column 'p.capacidad' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(dv...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(dv...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(dv...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(dv...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentasModel.php(104): CodeIgniter\BaseModel->findAll(10)
+#7 C:\xampp\htdocs\pos\app\Controllers\Inicio.php(32): App\models\VentasModel->productos_mas_vendidos('01', '2023')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(928): App\Controllers\Inicio->index()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-26 09:54:13 --> Unknown column 'p.capacidad' in 'field list'
+CRITICAL - 2023-01-26 09:54:13 --> Unknown column 'p.capacidad' in 'field list'
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(dv...')
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(dv...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(dv...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(dv...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\pos\app\Models\VentasModel.php(104): CodeIgniter\BaseModel->findAll(10)
+#7 C:\xampp\htdocs\pos\app\Controllers\Inicio.php(32): App\models\VentasModel->productos_mas_vendidos('01', '2023')
+#8 C:\xampp\htdocs\pos\system\CodeIgniter.php(928): App\Controllers\Inicio->index()
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
